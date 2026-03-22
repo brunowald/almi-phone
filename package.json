@@ -1,0 +1,18 @@
+{
+  "name": "almi-phone",
+  "version": "1.0.0",
+  "description": "Telefono Discord fisico para Almi",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "onoff": "^6.0.3",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
